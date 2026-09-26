@@ -84,7 +84,7 @@ CSS
 JavaScript
 Laravel php
 
-Integration Approach
+Integration Approaches
 
 The system may use REST APIs for communication between the frontend, backend, and external services. SMS notification services and payment-related services may be integrated through their respective APIs or service interfaces.
 
