@@ -6,11 +6,11 @@ Team Name: FruitExpress
 Repository: ITE412_SIA2_FruitExpress_Project
 
 Team Members & Roles
- — Project Lead
-Dungo, Khen G. — Documenter
-Reyes, Mark Mayer H. — Diagrammer
- — Presenter
- — Researcher
+ — Team Lead
+Dungo, Khen G. — Documention Lead
+Reyes, Mark Mayer H. — Integration Lead
+ — Developer
+ — Tester
  
 Project Summary
 
