@@ -7,7 +7,7 @@ Repository: ITE412_SIA2_FruitExpress_Project
 
 Team Members & Roles
  — Project Lead
- — Documenter
+Dungo, Khen G. — Documenter
 Reyes, Mark Mayer H. — Diagrammer
  — Presenter
  — Researcher
