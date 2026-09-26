@@ -6,11 +6,12 @@ Team Name: FruitExpress
 Repository: ITE412_SIA2_FruitExpress_Project
 
 Team Members & Roles
-Taqueban, Guinevere A. — Project Lead
-Dungo, Khen G. — Documenter
-Reyes, Mark — Diagrammer
-Dela Cruz, Ghiellian — Presenter
-Balbuena, Mark Daniel — Researcher
+ — Project Lead
+ — Documenter
+Reyes, Mark Mayer H. — Diagrammer
+ — Presenter
+ — Researcher
+ 
 Project Summary
 
 FruitExpress is a web-based digital marketplace designed to improve the distribution of seasonal fruits from Ornos Farm. The system connects farmers directly with consumers, allowing consumers to browse available fruits, place orders, receive order updates, and communicate with farmers. Farmers can manage their product listings, inventory, and orders, while administrators can monitor users and transactions.
