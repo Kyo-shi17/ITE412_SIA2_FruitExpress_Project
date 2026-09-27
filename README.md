@@ -9,7 +9,7 @@ Team Members & Roles
 Taqueban, Guinevere A. — Project Lead
 Dungo, Khen G. — Documenter
 Reyes, Mark Mayer H. — Diagrammer
- — Presenter
+Dela Cruz Ghiellian Jay — Presenter
  — Researcher
  
 Project Summary
