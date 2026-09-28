@@ -99,3 +99,34 @@ Browser-based testing
 Manual functional testing
 GitHub repository testing workflow
 Postman
+
+High-Level System Overview
+1. Major Modules / Subsystems
+User Management
+This module handles user registration, login, and profile management for consumers, farmers, and vendors. It also manages account creation and role-based access.
+
+Product Management
+This module allows farmers and vendors to manage fruit products and their details. Users can add, update, or delete products, manage inventory, and view product information.
+
+Order Management
+This module handles the creation and management of orders. It tracks order status, processes order details, and updates inventory based on order activities.
+
+Payment Processing
+This module handles payments through GCash and Cash on Delivery (COD). It confirms payments, stores transaction records, and updates the status of orders.
+
+2. External Systems / Interfaces
+GCash API
+The GCash API is used for online payment processing and transaction verification.
+
+SMS Gateway
+The SMS Gateway sends order updates, delivery alerts, and other notifications to users.
+
+Firebase / Firestore Database
+Firebase Firestore stores the system's data, including user accounts, products, orders, and payment records.
+
+3. Data Flow Summary
+Users such as consumers, farmers, and vendors interact with FruitExpress by registering or logging in, browsing products, and placing orders. The system processes these activities through the User Management, Product Management, Order Management, and Payment Processing modules.
+
+Product, order, and user information is stored in the Firebase Firestore database, while payment transactions are processed through the GCash API. The system also uses the SMS Gateway to send order updates and delivery alerts.
+
+After processing, updated information such as order status, payment confirmation, and inventory changes is returned to the appropriate users through the application.
