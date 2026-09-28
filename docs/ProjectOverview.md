@@ -154,3 +154,11 @@ The Product module provides endpoints for retrieving and adding product records,
 # Rationale
 
 REST was selected because it works well with web-based systems and uses standard HTTP methods for communication. JSON also provides a simple format for exchanging data between the client and server. For this activity, an in-memory data structure is used instead of a database so that the API can be developed and tested without additional database configuration.
+
+# Messaging Workflow
+
+FruitExpress uses a simple in-memory message queue to demonstrate asynchronous communication between the Order and Approval modules. When an order is submitted, the Order Module acts as the producer and places an order approval request into the queue.
+
+The Approval Module acts as the consumer. It reads the queued messages and processes each request one at a time. For this prototype, orders with an amount of 50,000 or less are approved, while orders above 50,000 are rejected.
+
+Using a message queue separates order submission from approval processing. The Order Module can place a request in the queue without directly handling the approval process, while the Approval Module processes the requests from the queue.
