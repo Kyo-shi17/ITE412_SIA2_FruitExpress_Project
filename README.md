@@ -71,3 +71,14 @@ Meeting Schedule: As agreed upon by the team.
 Repository Usage Notes
 
 The repository serves as the central workspace for the FruitExpress project. Project documentation is stored in the /docs folder, source code will be placed in /src, test cases will be maintained in /tests, and integration-related scripts or configurations will be placed in /integration.
+
+# REST API Usage
+
+To run the FruitExpress REST API:
+
+1. Open a terminal.
+2. Navigate to `/src/api`.
+3. Install the required dependencies using:
+
+```bash
+npm install

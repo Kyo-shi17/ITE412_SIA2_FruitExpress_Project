@@ -130,3 +130,27 @@ Users such as consumers, farmers, and vendors interact with FruitExpress by regi
 Product, order, and user information is stored in the Firebase Firestore database, while payment transactions are processed through the GCash API. The system also uses the SMS Gateway to send order updates and delivery alerts.
 
 After processing, updated information such as order status, payment confirmation, and inventory changes is returned to the appropriate users through the application.
+
+# Integration Pattern & Rationale
+
+# Integration Pattern
+
+FruitExpress uses a REST-based integration pattern for communication between its modules and clients. The API is developed using Node.js and Express and exposes HTTP endpoints for the Product and Order modules.
+
+The Product module provides endpoints for retrieving and adding product records, while the Order module provides endpoints for retrieving and adding order records. Data is exchanged using JSON over HTTP.
+
+# REST API Endpoints
+
+# Product Module
+
+- GET `/products` — Retrieves all products.
+- POST `/products` — Adds a new product.
+
+# Order Module
+
+- GET `/orders` — Retrieves all orders.
+- POST `/orders` — Adds a new order.
+
+# Rationale
+
+REST was selected because it works well with web-based systems and uses standard HTTP methods for communication. JSON also provides a simple format for exchanging data between the client and server. For this activity, an in-memory data structure is used instead of a database so that the API can be developed and tested without additional database configuration.
